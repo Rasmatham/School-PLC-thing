@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+}
+
+
+/* Style the tab */
+
+.tabheaders {
+    overflow: hidden;
+    border: none;
+    background-color: #292b2f;
+    color: #dcddde;
+    border-radius: 5px;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tabheaders button {
+    background-color: #36393f;
+    color: #dcddde;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 14px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+
+
+/* Create an active/current tablink class */
+
+.tabheaders button.active {
+    background-color: #202225;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 5px;
+}
+
+
+/* Style the close button */
+
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {
+    color: red;
+}
+
+.body {
+    background-color: #36393F;
+    color: #dcddde;
+}
+
+.tabcontent {
+    background-color: #2f3136;
+    border: none
+}
+
+.iframe {
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.textbox {
+    background-color: #40444b;
+    border: none;
+    height: 20px;
+    color: #dcddde;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.textbox:hover {
+    background-color: rgb(64, 68, 75);
+    border: none;
+    height: 20px;
+}
+
+.btn {
+    background: #dcddde;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 20px;
+}
